@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cristian - Portfolio</title>
+  <link rel="stylesheet"
+      href="styles/global_style.css">
+
+  <link rel="stylesheet"
+      href="styles/home_style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+  <div class="navbar-container">
+    <h2>
+      <a href="home.html" class="logo">
+        Dontu Cristian
+      </a>
+    </h2>
+    <ul>
+      <li>
+        <a href="home.html">
+          Home
+        </a>
+      </li>
+      <li>
+        <a href="about.html">
+          About
+        </a>
+      </li>
+      <li>
+        <a href="home.html#projects">
+          Portfolio
+        </a>
+      </li>
+      <li>
+        <a href="home.html#contact">
+          Contact
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+  <!-- HERO -->
+  <section id="about" class="hero">
+    <div class="hero-content">
+
+      <div class="hero-text">
+        <h1>Who Am I?</h1>
+        <p>
+          Hello there,my name is Dontu Cristian. 
+          I'm student in his final year looking for an intership. I have started dabbling in Game Development about 4 years ago. 
+          I started with Unity then I learned C++. Recently I also tried my hands at working with Vulkan in making a small rendering engine.
+        </p>
+      </div>
+
+      <div class="hero-image">
+        <img src="images/me.png">
+      </div>
+
+    </div>
+  </section>
+
+    <!-- PROJECTS -->
+  <section id="projects" class="projects-section">
+
+    <div class="projects-header">
+        <h2>My Projects</h2>
+        <p>
+          A collection of projects I've worked on.
+        </p>
+    </div>
+
+<!-- SLIDER AREA -->
+
+<div class="slider-area">
+
+  <!-- SIDE BUTTONS -->
+
+  <div class="slider-buttons">
+
+    <button id="prevBtn">
+      ←
+    </button>
+
+    <button id="nextBtn">
+      →
+    </button>
+
+  </div>
+
+  <!-- SLIDER -->
+  <div class="slider-wrapper">
+    <div class="slider-track" id="sliderTrack">
+      <!-- PROJECT 1 -->
+      <a href="projects/master_thief_showdown.html"
+         class="project-card">
+        <img src="images/master_thief_cover.png">
+        <div class="project-info">
+          <h3>
+            Master Thief Showdown
+          </h3>
+          <p>
+            Local multiplayer stealth game
+            with traps, guards and
+            procedural systems.
+          </p>
+          <span class="view-project-btn">
+            View Project
+          </span>
+        </div>
+      </a>
+      <!-- PROJECT 2 -->
+      <a href="projects/vulkan_renderer.html"
+         class="project-card">
+        <img src="images/vulkan_renderer_cover.png">
+        <div class="project-info">
+          <h3>
+            Vulkan Renderer
+          </h3>
+          <p>
+            Small Vulkan rendering engine
+            focused on low-level graphics
+            concepts.
+          </p>
+          <span class="view-project-btn">
+            View Project
+          </span>
+        </div>
+      </a>
+      <!-- PROJECT 3 -->
+      <a href="projects/horned_knight_recreation.html"
+         class="project-card">
+        <img src="images/horned_knight_cover.png">
+        <div class="project-info">
+          <h3>
+            Horned Knight Recreation
+          </h3>
+          <p>
+            Recreation of one level from
+            the Nintendo game Horned Knight.
+          </p>
+          <span class="view-project-btn">
+            View Project
+          </span>
+        </div>
+      </a>
+      <!-- PROJECT 4 -->
+      <a href="projects/tron_battle_tanks.html"
+         class="project-card">
+        <img src="images/tron_cover.png">
+        <div class="project-info">
+          <h3>
+            Tron Battle Tanks
+          </h3>
+          <p>
+            Local multiplayer tank battle
+            game inspired by Tron Battle Tanks.
+          </p>
+          <span class="view-project-btn">
+            View Project
+          </span>
+        </div>
+      </a>
+      <!-- PROJECT 5 -->
+      <a href="projects/gutterpunk.html"
+         class="project-card">
+        <img src="images/gutterpunk_cover.png">
+        <div class="project-info">
+          <h3>
+            Gutterpunk
+          </h3>
+          <p>
+            A 3D speedrunning parkour game, with a focus on movement and flow.
+          </p>
+          <span class="view-project-btn">
+            View Project
+          </span>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="slider-dots" id="sliderDots"></div>
+
+</section>
+
+  <!-- CONTACT -->
+  <footer id="contact" class="footer">
+    <h2>
+      Let's build something.
+    </h2>
+    <p>
+      cdontu8@gmail.com
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
